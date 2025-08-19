@@ -3,7 +3,7 @@
 
 ### Launch your development career with project-based coaching on [JS Mastery Pro](https://www.jsmastery.pro).
 
-## Instructions on setting up the Web3 part of the project
+## Instructions on setting up the Web3 part of the project.
 0. `cd web3`
 1. `npx hardhat` -> y → typescript → enter → enter
 2. `npm install @openzeppelin/contracts dotenv @nomiclabs/hardhat-ethers` + Hardhat packages `npm install --save-dev "hardhat@^2.12.0" "@nomicfoundation/hardhat-toolbox@^2.0.0"`
@@ -19,4 +19,4 @@
 10. Compile the contract by running the `npx hardhat compile` command
 11. Deploy the smart contract on the Fuji test network by running the `npx hardhat run scripts/deploy.ts --network fuji` command
   Move the `/artifacts/contracts/AVAXGods.json` file to the `/contract` folder on the frontend
-  Copy the address of the deployed contract from the terminal and paste it into the `/contract/index.js` file of the frontend application
+  Copy the address of the deployed contract from the terminal and paste it into the `/contract/index.js` file of the frontend application.
